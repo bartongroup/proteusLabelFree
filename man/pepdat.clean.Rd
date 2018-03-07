@@ -6,5 +6,5 @@
 \title{Clean peptide data}
 \format{A \code{proteusData} object}
 \description{
-Peptide data aggregated from evidence data \code{xpevi}. One "bad" replicate was removed.
+Peptide data aggregated from evidence data \code{evi}. One "bad" replicate was removed.
 }

@@ -6,5 +6,5 @@
 \title{Peptide data}
 \format{A \code{proteusData} object}
 \description{
-Peptide data aggregated from evidence data \code{xpevi}. Contains all replicates.
+Peptide data aggregated from evidence data \code{evi}. Contains all replicates.
 }

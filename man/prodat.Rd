@@ -6,5 +6,5 @@
 \title{Proteins data}
 \format{A \code{proteusData} object}
 \description{
-Protein data aggregated from evidence data \code{xpevi}.
+Protein data aggregated from evidence data \code{evi}.
 }

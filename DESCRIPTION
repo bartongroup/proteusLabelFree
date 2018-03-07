@@ -1,7 +1,7 @@
 Package: proteusUnlabelled
 Type: Package
 Title: Example unlabelled data set for proteus package
-Version: 0.1.1
+Version: 0.1.2
 Depends: R (>= 2.10)
 Author: Marek Gierlinski
 Maintainer: Marek Gierlinski <M.Gierlinski@dundee.ac.uk>

@@ -12,6 +12,7 @@
 #'   \item{\code{pepdat}}{Peptide data (\code{proteusData} object)}
 #'   \item{\code{pepdat.clean}}{Clean peptide data (\code{proteusData} object)}
 #'   \item{\code{prodat}}{Protein data (\code{proteusData} object)}
+#'   \item{\code{annotations}}{Protein annotations downloaded from UniProt}
 #' }
 #' This package also contains the full original evidence file, peptides file, proteinGroups
 #' file and formatted metadata file (see examples below).
@@ -35,7 +36,7 @@ NULL
 #'
 #' @docType data
 #' @name meta
-#' @format A \code{data.frame} with 14 rows and 3 columns (sample, condition and replicate).
+#' @format A data frame with 14 rows and 3 columns (sample, condition and replicate).
 NULL
 
 #' Proteomics metadata
@@ -44,7 +45,7 @@ NULL
 #'
 #' @docType data
 #' @name meta.clean
-#' @format A \code{data.frame} with 13 rows and 3 columns (sample, condition and replicate).
+#' @format A data frame with 13 rows and 3 columns (sample, condition and replicate).
 NULL
 
 #' Evidence data
@@ -58,7 +59,7 @@ NULL
 
 #' Peptide data
 #'
-#' Peptide data aggregated from evidence data \code{xpevi}. Contains all replicates.
+#' Peptide data aggregated from evidence data \code{evi}. Contains all replicates.
 #'
 #' @docType data
 #' @name pepdat
@@ -67,7 +68,7 @@ NULL
 
 #' Clean peptide data
 #'
-#' Peptide data aggregated from evidence data \code{xpevi}. One "bad" replicate was removed.
+#' Peptide data aggregated from evidence data \code{evi}. One "bad" replicate was removed.
 #'
 #' @docType data
 #' @name pepdat.clean
@@ -77,9 +78,19 @@ NULL
 
 #' Proteins data
 #'
-#' Protein data aggregated from evidence data \code{xpevi}.
+#' Protein data aggregated from evidence data \code{evi}.
 #'
 #' @docType data
 #' @name prodat
 #' @format A \code{proteusData} object
 NULL
+
+#' Protein annotations
+#'
+#' Protein annotations obtained with \code{fetchFromUniProt}.
+#'
+#' @docType data
+#' @name annotations
+#' @format A data frame with 9067 rows and 3 columns
+NULL
+

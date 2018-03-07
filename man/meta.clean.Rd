@@ -4,7 +4,7 @@
 \name{meta.clean}
 \alias{meta.clean}
 \title{Proteomics metadata}
-\format{A \code{data.frame} with 13 rows and 3 columns (sample, condition and replicate).}
+\format{A data frame with 13 rows and 3 columns (sample, condition and replicate).}
 \description{
 Metadata describing a proteomics experiment in two conditions with 7 replicates each. One "bad" replicate was removed.
 }
