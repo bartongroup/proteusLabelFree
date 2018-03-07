@@ -94,3 +94,11 @@ NULL
 #' @format A data frame with 9067 rows and 3 columns
 NULL
 
+#' Protein annotations for merging into \code{proteusData} object
+#'
+#' Protein annotations formatted for \code{annotateProteins} function.
+#'
+#' @docType data
+#' @name annotations.id
+#' @format A data frame with 6638 rows and 4 columns
+NULL
