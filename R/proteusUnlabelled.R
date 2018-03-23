@@ -100,5 +100,5 @@ NULL
 #'
 #' @docType data
 #' @name annotations.id
-#' @format A data frame with 6638 rows and 4 columns
+#' @format A data frame with 3796 rows and 4 columns
 NULL
