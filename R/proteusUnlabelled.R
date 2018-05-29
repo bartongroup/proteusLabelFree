@@ -2,7 +2,8 @@
 #' @name proteusUnlabelled
 #' @docType data
 #' @description Example data set for \code{proteus} package. It comes from a label-free MS/MS
-#' experiment in two conditions (called 1112 and BMO-1) and seven replicates each.
+#' experiment in two conditions (called 1112 and BMO-1) and seven replicates each. The data come
+#' from an unpublished experiment by Katharina Trunk and Matthias Trost.
 #'
 #' @format Six objects from different stages of data processing:
 #' \describe{
@@ -18,6 +19,7 @@
 #' file and formatted metadata file (see examples below).
 #'
 #' @examples
+#' library(proteusUnlabelled)
 #' data(proteusUnlabelled)
 #' meta
 #' head(pepdat$tab)
