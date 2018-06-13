@@ -104,3 +104,12 @@ NULL
 #' @name annotations.id
 #' @format A data frame with 3796 rows and 4 columns
 NULL
+
+#' Example fragment of evidence data
+#'
+#' Example fragment of evidence data.
+#'
+#' @docType data
+#' @name evitab.example
+#' @format A matrix with 6 columns and 14 rows
+NULL
