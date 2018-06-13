@@ -1,5 +1,5 @@
-#' @title Proteus example unlabelled data
-#' @name proteusUnlabelled
+#' @title Proteus example label free data
+#' @name proteusLabelFree
 #' @docType data
 #' @description Example data set for \code{proteus} package. It comes from a label-free MS/MS
 #' experiment in two conditions (called 1112 and BMO-1) and seven replicates each. The data come
@@ -19,17 +19,17 @@
 #' file and formatted metadata file (see examples below).
 #'
 #' @examples
-#' library(proteusUnlabelled)
-#' data(proteusUnlabelled)
+#' library(proteusLabelFree)
+#' data(proteusLabelFree)
 #' meta
 #' head(pepdat$tab)
 #' head(prodat$tab)
 #'
-#' evidenceFile <- system.file("extdata", "evidence.txt.gz", package="proteusUnlabelled")
-#' peptidesFile <- system.file("extdata", "peptides.txt.gz", package="proteusUnlabelled")
-#' proteinGroupsFile <- system.file("extdata", "proteinGroups.txt.gz", package="proteusUnlabelled")
-#' metadataFile <- system.file("extdata", "metadata.txt", package="proteusUnlabelled")
-#"proteusUnlabelled"
+#' evidenceFile <- system.file("extdata", "evidence.txt.gz", package="proteusLabelFree")
+#' peptidesFile <- system.file("extdata", "peptides.txt.gz", package="proteusLabelFree")
+#' proteinGroupsFile <- system.file("extdata", "proteinGroups.txt.gz", package="proteusLabelFree")
+#' metadataFile <- system.file("extdata", "metadata.txt", package="proteusLabelFree")
+#"proteusLabelFree"
 NULL
 
 #' Proteomics metadata

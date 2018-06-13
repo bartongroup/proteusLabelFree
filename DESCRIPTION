@@ -1,6 +1,6 @@
-Package: proteusUnlabelled
+Package: proteusLabelFree
 Type: Package
-Title: Example unlabelled data set for proteus package
+Title: Example label free data set for proteus package
 Version: 0.1.3
 Depends: R (>= 2.10)
 Author: Marek Gierlinski
