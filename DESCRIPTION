@@ -1,7 +1,7 @@
 Package: proteusLabelFree
 Type: Package
 Title: Example label-free data set for proteus package
-Version: 0.1.4
+Version: 0.1.5
 Depends: R (>= 2.10)
 Author: Marek Gierlinski
 Maintainer: Marek Gierlinski <M.Gierlinski@dundee.ac.uk>
