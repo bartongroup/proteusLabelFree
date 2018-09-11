@@ -2,6 +2,7 @@ Package: proteusLabelFree
 Type: Package
 Title: Example label-free data set for proteus package
 Version: 0.1.6
+Date: 2018-09-11
 Depends: R (>= 2.10)
 Authors@R: c(
   person("Marek", "Gierlinski", email="M.Gierlinski@dundee.ac.uk", role=c("aut", "cre")),
