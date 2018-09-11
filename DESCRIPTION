@@ -1,11 +1,18 @@
 Package: proteusLabelFree
 Type: Package
 Title: Example label-free data set for proteus package
-Version: 0.1.5
+Version: 0.1.6
 Depends: R (>= 2.10)
-Author: Marek Gierlinski
+Authors@R: c(
+  person("Marek", "Gierlinski", email="M.Gierlinski@dundee.ac.uk", role=c("aut", "cre")),
+  person("Katharina", "Trunk", role="dtc"),
+  person("Sarah", "Coulthurst", role="dtc"),
+  person("Julien", "Peltier", role="dtc"),
+  person("Matthias", "Trost", role="dtc"))
 Maintainer: Marek Gierlinski <M.Gierlinski@dundee.ac.uk>
-Description: Example label-free data set for proteus package.
+Description: Example label-free data set for proteus package. Comes from a proteomics experiment in yeast,
+  in two biological conditions, seven replicates each. Contains evidence, peptides and proteinGroups file,
+  as well as intermediate proteus data. These data have not been published yet.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true

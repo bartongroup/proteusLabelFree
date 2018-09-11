@@ -1,11 +1,12 @@
 #' @title Proteus example label free data
 #' @name proteusLabelFree
 #' @docType data
-#' @description Example data set for \code{proteus} package. It comes from a label-free MS/MS
-#' experiment in two conditions (called A and B) and seven replicates each. The data come
-#' from an unpublished experiment by Katharina Trunk, Sarah Coulthurst and Matthias Trost.
 #'
-#' @format Six objects from different stages of data processing:
+#' @description Example data set for \code{proteus} package. It comes from a label-free MS/MS
+#' experiment in two biological conditions (called A and B) and seven replicates each. The data come
+#' from an unpublished experiment by Katharina Trunk, Sarah Coulthurst, Julien Peltier and Matthias Trost.
+#'
+#' @format Nine objects from different stages of data processing:
 #' \describe{
 #'   \item{\code{evi}}{Pre-processed evidence data (data frame)}
 #'   \item{\code{meta}}{Metadata (data frame)}
@@ -14,6 +15,8 @@
 #'   \item{\code{pepdat.clean}}{Clean peptide data (\code{proteusData} object)}
 #'   \item{\code{prodat}}{Protein data (\code{proteusData} object)}
 #'   \item{\code{annotations}}{Protein annotations downloaded from UniProt}
+#'   \item{\code{annotations.id}}{Protein annotations ready for merging}
+#'   \item{\code{evitab.example}}{Example fragment of evidence data}
 #' }
 #' This package also contains the full original evidence file, peptides file, proteinGroups
 #' file and formatted metadata file (see examples below).
